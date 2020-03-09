@@ -162,7 +162,7 @@ class Ofa:
                 enc_pred = np.concatenate([enc_pred, self.F[self.ts:,:]], axis=2)
                 trans_pred = self.scaler.transform(enc_pred.reshape(-1,self.dim1+self.dim2)).reshape(-1,self.sequence_length,self.dim1+self.dim2)
                 NN_pred = NN([trans_pred,1])
-                #print('...stochastic dropout on XFe done...')
+                #print('...quantile applied on XFe done...')
             else:
                 enc = K.function([self.encoder.layers[0].input, K.learning_phase()], [self.encoder.layers[-1].output])
                 NN = K.function([self.model.layers[0].input, K.learning_phase()],
@@ -171,7 +171,7 @@ class Ofa:
                 #enc_pred = np.concatenate([enc_pred, self.F[self.ts:,:]], axis=2)
                 trans_pred = self.scaler.transform(enc_pred.reshape(-1,self.dim2)).reshape(-1,self.sequence_length,self.dim2)
                 NN_pred = NN([trans_pred,1])
-                #print('...stochastic droput on Xe done...')
+                #print('...quantile applied on Xe done...')
 
         else:
             if ext:
@@ -181,7 +181,7 @@ class Ofa:
                 trans_pred = self.scaler.transform(self.FX[self.ts:,:].reshape(-1,self.dim2+ \
                                                                                self.dim1)).reshape(-1,self.sequence_length,self.dim2+self.dim1)
                 NN_pred = NN([trans_pred,1])
-                #print('..stochastic dropot on XF done..')
+                #print('..quantile applied on XF done..')
 
             else:
                 NN = K.function([self.model.layers[0].input, K.learning_phase()],
@@ -189,7 +189,7 @@ class Ofa:
                 #self.XF_train_noe = np.concatenate((self.x_test, self.F_test), axis=2)
                 trans_pred = self.scaler.transform(self.X[self.ts:,:].reshape(-1,self.dim2)).reshape(-1,self.sequence_length,self.dim2)
                 NN_pred = NN([trans_pred,1])
-                #print('..stochastic dropot on X done..')
+                #print('..quantile appliedt on X done..')
 
         return NN_pred
 
