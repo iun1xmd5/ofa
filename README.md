@@ -26,7 +26,7 @@ This file contains OFA implemetation algorithm
 
 ## Datasets
 - Art.tar.gz is an artificial dataset
-* edf_stocks.csv edf stock market dataset
+* edf_stocks.csv [source](https://github.com/Amossys-team/SPOT "edf stock market dataset")
 - hrrs -high-storage-system-data-for enery--
 * NYC Taxi [can be downloaded here](https://data.cityofnewyork.us/Transportation/2014-Yellow-Taxi-Trip-Data/gkne-dk5s "NYC Taxi Dataset")
 - credit [card can be downloaded here](https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
