@@ -1,4 +1,4 @@
-# OFA-Robust Anomaly Detection in Feature-evolving Time Series 
+# Robust Anomaly Detection in Feature-evolving Time Series [can be downloaded from here](http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf)
 
 ## Abstract
 _This paper addresses the anomaly detection problem in feature-evolving systems
@@ -20,9 +20,16 @@ variabilities in feature-evolving heterogeneous time series. Extensive experimen
 and rigorous evaluation on large-scale real world data sets showcases that
 OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
-### Datasets
+## Datasets
 - Art.tar.gz is an artificial dataset
 * edf_stocks.csv edf stock market dataset
 - hrrs -high-storage-system-data-for enery--
 * NYC Taxi [can be downloaded here](https://data.cityofnewyork.us/Transportation/2014-Yellow-Taxi-Trip-Data/gkne-dk5s "NYC Taxi Dataset")
 - credit [card can be downloaded here](https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
+
+## Dependencies
+1. Tensoflow 2+
+2. Keras
+3. Python 3.6+
+4. Pandas
+5. Numpy
