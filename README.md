@@ -22,7 +22,7 @@ OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
 ### Datasets
 1. Art.tar.gz is an Artificial dataset
-1.item edf_stocks.csv--edf stock market dataset
+1.edf_stocks.csv--edf stock market dataset
 1.item hrrs -high-storage-system-data-for enery--
 1.item NYC Taxi---https://data.cityofnewyork.us/Transportation/2014-Yellow-
 Taxi-Trip-Data/gkne-dk5s
