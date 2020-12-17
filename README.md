@@ -20,6 +20,9 @@ variabilities in feature-evolving heterogeneous time series. Extensive experimen
 and rigorous evaluation on large-scale real world data sets showcases that
 OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
+## ofa.py 
+#### This file contains OFA implemetation algorithm 
+
 ## Datasets
 - Art.tar.gz is an artificial dataset
 * edf_stocks.csv edf stock market dataset
