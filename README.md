@@ -1,4 +1,5 @@
-# Robust Anomaly Detection in Feature-evolving Time Series [can be downloaded from here](http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf)
+# OFA
+## Robust Anomaly Detection in Feature-evolving Time Series [PDF](http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf)
 
 ## Abstract
 _This paper addresses the anomaly detection problem in feature-evolving systems
@@ -21,7 +22,7 @@ and rigorous evaluation on large-scale real world data sets showcases that
 OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
 ## ofa.py 
-#### This file contains OFA implemetation algorithm 
+This file contains OFA implemetation algorithm 
 
 ## Datasets
 - Art.tar.gz is an artificial dataset
