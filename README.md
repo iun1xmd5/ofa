@@ -13,7 +13,7 @@ leave alone memory space required to maintain the model and evolving data
 points in memory for timely processing in feature-evolving data streams. Thus,
 this paper proposes One sketch F its all Algorithm (OFA), which is a real-time
 stochastic recurrent deep neural network anomaly detector built on assumption-
-free probabilistic conditional Quantile Regression with well-calibrated predictive
+free probabilistic conditional Quantile Regression (QR) with well-calibrated predictive
 uncertainty estimates. The proposed framework is capable of detecting anomalies
 robustly, accurately and efficiently in real-time while handling randomness and
 variabilities in feature-evolving heterogeneous time series. Extensive experiments
@@ -21,9 +21,9 @@ and rigorous evaluation on large-scale real world data sets showcases that
 OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
 # Datasets
-Art.tar.gz--Artificial dataset
-edf_stocks.csv--edf stock market dataset
-hrrs -high-storage-system-data-for enery--
-NYC Taxi---https://data.cityofnewyork.us/Transportation/2014-Yellow-
+1.item Art.tar.gz is an Artificial dataset
+1.item edf_stocks.csv--edf stock market dataset
+1.item hrrs -high-storage-system-data-for enery--
+1.item NYC Taxi---https://data.cityofnewyork.us/Transportation/2014-Yellow-
 Taxi-Trip-Data/gkne-dk5s
-credit card --https://www.kaggle.com/mlg-ulb/creditcardfraud
+1.item credit card --https://www.kaggle.com/mlg-ulb/creditcardfraud
