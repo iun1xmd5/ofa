@@ -20,8 +20,8 @@ variabilities in feature-evolving heterogeneous time series. Extensive experimen
 and rigorous evaluation on large-scale real world data sets showcases that
 OFA outperforms other competitive state-of-the-art anomaly detector methods._
 
-# Datasets
-1.item Art.tar.gz is an Artificial dataset
+### Datasets
+1. Art.tar.gz is an Artificial dataset
 1.item edf_stocks.csv--edf stock market dataset
 1.item hrrs -high-storage-system-data-for enery--
 1.item NYC Taxi---https://data.cityofnewyork.us/Transportation/2014-Yellow-
