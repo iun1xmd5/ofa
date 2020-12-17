@@ -24,6 +24,5 @@ OFA outperforms other competitive state-of-the-art anomaly detector methods._
 - Art.tar.gz is an artificial dataset
 * edf_stocks.csv edf stock market dataset
 - hrrs -high-storage-system-data-for enery--
-* NYC Taxi [can be downloaded here] (https://data.cityofnewyork.us/Transportation/2014-Yellow-
-Taxi-Trip-Data/gkne-dk5s "NYC Taxi Dataset")
-- credit card can be [downloaded here] (https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
+* NYC Taxi[can be downloaded here](https://data.cityofnewyork.us/Transportation/2014-Yellow-Taxi-Trip-Data/gkne-dk5s"NYC Taxi Dataset")
+- credit card can be [downloaded here](https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
