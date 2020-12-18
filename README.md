@@ -41,6 +41,7 @@ This file contains OFA implemetation algorithm
 If you find this code useful in your research, please, consider citing our paper:
 
 # Reference
+```
 @ARTICLE{wamburacmpjrn2020,
 	AUTHOR = "Stephen Wambura and Jianbin Huang and He Li",
 	TITLE = "Robust Anomaly Detection in Time series",
@@ -48,3 +49,4 @@ If you find this code useful in your research, please, consider citing our paper
 	VOLUME = {},
 	NUMBER = {},
 	YEAR = {2020},}
+```
