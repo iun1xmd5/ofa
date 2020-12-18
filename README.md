@@ -1,5 +1,5 @@
 # OFA
-## Robust Anomaly Detection in Feature-evolving Time Series [PDF](http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf "Downdoald the paper from here")
+## Robust Anomaly Detection in Feature-evolving Time Series [PDF](https://doi.org/10.1093/comjnl/bxaa174 "Downdoald the paper from here")
 
 ## Abstract
 _This paper addresses the anomaly detection problem in feature-evolving systems
@@ -35,4 +35,16 @@ This file contains OFA implemetation algorithm
 1. Tensoflow 2
 2. Keras 2.3.1
 3. Python 3.6
+4. Matplotlib
+5. tqdm
 
+If you find this code useful in your research, please, consider citing our paper:
+
+# Reference
+@ARTICLE{wamburacmpjrn2020,
+	AUTHOR = "Stephen Wambura and Jianbin Huang and He Li",
+	TITLE = "Robust Anomaly Detection in Time series",
+	JOURNAL = {Oxford computer journal},
+	VOLUME = {},
+	NUMBER = {},
+	YEAR = {2020},}
