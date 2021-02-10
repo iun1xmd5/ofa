@@ -29,7 +29,7 @@ This file contains OFA implemetation algorithm
 * edf_stocks.csv [can be downloaded here](https://github.com/Amossys-team/SPOT "edf stock market dataset")
 - hrrs -High Rack Storage System [available from here](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization/data "hrss dataset link")
 * NYC Taxi [can be downloaded here](https://data.cityofnewyork.us/Transportation/2014-Yellow-Taxi-Trip-Data/gkne-dk5s "NYC Taxi Dataset")
-- credit [card can be downloaded here](https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
+- credit [can be downloaded here](https://www.kaggle.com/mlg-ulb/creditcardfraud "Credit card transaction dataset")
 
 ## Dependencies
 1. Tensoflow 2
